@@ -8,19 +8,27 @@ class App extends Component {
     super();
     
     this.state = {
-      string: 'Hello D-boss'
+      plants: [
+        {
+          name: 'Primrose'
+        },
+        {
+          name: 'Poppies'
+        },
+        {
+          name: 'Lavender'
+        },
+      ]
     };
   }
 
-  
+
   render(){ // using jsx syntax
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>{this.state.string}</p>
-          <button onClick={() => this.setState({ string: 'Hello D-money'})}>Change Text</button>
-        </header>
+       {
+         this.state.plants.map(plant => <h1> { plant.name } </h1>)
+       }
       </div>
     )
   }

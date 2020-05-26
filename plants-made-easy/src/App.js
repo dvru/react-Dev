@@ -31,7 +31,7 @@ class App extends Component {
       <div className="App">
        {
          this.state.plants.map(plant => (
-           <h1 key={plant.id}> { plant.name } </h1>
+           <h1 key={plant.id}> {plant.name} </h1>
          ))}
       </div>
     )

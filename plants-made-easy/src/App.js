@@ -12,7 +12,7 @@ class App extends Component {
     };
   }
 
-
+  
   render(){ // using jsx syntax
     return (
       <div className="App">

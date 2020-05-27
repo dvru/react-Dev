@@ -1,6 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import { Cardlist } from './components/card-list/card-list.component';
 
 
 class App extends React.Component { 
@@ -23,8 +24,10 @@ class App extends React.Component {
   render(){ // using jsx syntax
     return (
       <div className="App">
-       {
-         this.state.plants.map(plant => (
+      <Cardlist name="Damini">
+        <h1>Damini</h1>
+      </Cardlist>
+       {this.state.plants.map(plant => (
             <h1 key={plant.id}> {plant.name} </h1>
          ))}
       </div>

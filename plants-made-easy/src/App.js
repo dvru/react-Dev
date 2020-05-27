@@ -24,10 +24,8 @@ class App extends React.Component {
   render(){ // using jsx syntax
     return (
       <div className="App">
-      <Cardlist name="Damini">
-      {this.state.plants.map(plant => (
-            <h1 key={plant.id}> {plant.name} </h1>
-         ))}
+      <Cardlist plants={this.state.plants}>
+     
       </Cardlist>
       </div>
     )

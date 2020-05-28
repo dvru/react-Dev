@@ -15,15 +15,16 @@ class App extends React.Component {
     };
   }
   
+
   componentDidMount(){
   fetch("http://localhost:3001/plants", {
   })
-.then(response => response.json())
-.then(plants => this.setState({ plants: plants}))
-.catch(err => {
-  console.log(err);
-});
-  }
+  .then(response => response.json())
+  .then(plants => this.setState({ plants: plants}))
+  .catch(err => {
+    console.log(err)
+  })
+}
 
   
 

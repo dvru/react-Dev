@@ -16,6 +16,7 @@ class App extends React.Component {
   }
   
 
+  //fetching all plants from json
   componentDidMount(){
   fetch("http://localhost:3001/plants", {
   })
@@ -26,16 +27,13 @@ class App extends React.Component {
   })
 }
 
-  
 
 
-
+// rendering each component
   render(){ // using jsx syntax
     return (
       <div className="App">
-      <Cardlist plants={this.state.plants}>
-     
-      </Cardlist>
+      <Cardlist plants={this.state.plants}></Cardlist>
       </div>
     )
   }

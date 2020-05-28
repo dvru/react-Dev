@@ -16,10 +16,18 @@ class App extends React.Component {
   }
   
   componentDidMount(){
-    fetch("https://jsonplaceholder.typicode.com/users")
-    .then(response => response.json())
-    .then(plants => this.setState({ plants: plants}));
+  fetch("http://localhost:3001/plants", {
+  })
+.then(response => response.json())
+.then(plants => this.setState({ plants: plants}))
+.catch(err => {
+  console.log(err);
+});
   }
+
+  
+
+
 
   render(){ // using jsx syntax
     return (

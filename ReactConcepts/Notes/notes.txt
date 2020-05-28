@@ -1,0 +1,5 @@
+// react dev
+
+// 1. Decide on Components
+// 2. Decide on State and where it lives
+// 3. What changes when state changes

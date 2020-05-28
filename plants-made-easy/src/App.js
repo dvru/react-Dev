@@ -13,7 +13,8 @@ class App extends React.Component {
     this.state = {
       plants: [],
       searchField: ''
-    };
+    }
+    this.handleChange = this.handleChange.bind(this);
   }
   
 
@@ -29,6 +30,9 @@ class App extends React.Component {
 }
 
 
+handleChange(e) {
+  this.setState({ searchField: e.target.value })
+}
 
 // rendering each component
   render(){ // using jsx syntax
@@ -39,7 +43,7 @@ class App extends React.Component {
       <div className="App">
       <SearchBox
         placeholder='search plants'
-        handleChange={e => this.setState({ searchField: e.target.value })}
+        handleChange={this.handleChange}
       />
       <Cardlist plants={filterdPlants}/>
       </div>

@@ -7,8 +7,39 @@
       },
       {
         "id": "2",
-        "name": "Poppies",
-        "img": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1557258847-chinese-evergreen-houseplant-1557258690.jpg?crop=0.883xw:0.887xh;0.0849xw,0.0821xh&resize=480:*"
+        "name": "Aloe Vera",
+        "img": "https://www.houseplant411.com/wp-content/uploads/cb76738f43d2d7cfae8f87b3a865ec31.jpg"
+      },
+      {
+        "id": "3",
+        "name": "Fiddle-leaf fig",
+        "img": "https://cdn.shopify.com/s/files/1/0207/8508/products/fiddle_leaf_fig_5_2048x.jpg?v=1568215758"
+      },
+      {
+        "id": "4",
+        "name": "Zanzibar Gem",
+        "img": "https://i.pinimg.com/originals/21/6e/ce/216ece78081c184ffe3f872d232bdd94.jpg"
+      },
+      {
+        "id": "5",
+        "name": "Peace lily",
+        "img": "https://i.etsystatic.com/15265690/r/il/9c7e6c/1211862072/il_570xN.1211862072_3kuo.jpg"
+      },
+      {
+        "id": "6",
+        "name": "Laceleaf",
+        "img": "https://images.homedepot-static.com/productImages/edf48fc4-1647-43fb-b435-ca91abc15719/svn/costa-farms-house-plants-co-aad04-wht-64_1000.jpg"
+      },
+      {
+        "id": "7",
+        "name": "Jade plant",
+        "img": "https://www.dwsilks.com/wp-content/uploads/2019/02/191062.jpg"
+      },
+      {
+        "id": "8",
+        "name": "Swiss cheese plant",
+        "img": "https://images.squarespace-cdn.com/content/v1/5a80d1cc18b27df02ea8d544/1539564858699-C9G6N6GJRWO85KYLDT5B/ke17ZwdGBToddI8pDm48kMXRibDYMhUiookWqwUxEZ97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0luUmcNM2NMBIHLdYyXL-Jww_XBra4mrrAHD6FMA3bNKOBm5vyMDUBjVQdcIrt03OQ/Cheese_white_withstand.jpg?format=1500w"
       }
+
     ]
   }

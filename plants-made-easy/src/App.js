@@ -34,7 +34,14 @@ class App extends React.Component {
   render(){ // using jsx syntax
     return (
       <div className="App">
-      <input type='search' placeholder='search plants' onChange={e => console.log(e)}/>
+      <input 
+        type='search' 
+        placeholder='search plants' 
+        onChange={e => {
+          this.setState({ searchField: e.target.value });
+          console.log(this.state)
+          }}
+      />
       <Cardlist plants={this.state.plants}></Cardlist>
       </div>
     )

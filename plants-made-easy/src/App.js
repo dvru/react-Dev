@@ -11,7 +11,8 @@ class App extends React.Component {
     super();
     
     this.state = {
-      plants: []
+      plants: [],
+      searchField: ''
     };
   }
   
@@ -33,6 +34,7 @@ class App extends React.Component {
   render(){ // using jsx syntax
     return (
       <div className="App">
+      <input type='search' placeholder='search plants' onChange={e => console.log(e)}/>
       <Cardlist plants={this.state.plants}></Cardlist>
       </div>
     )

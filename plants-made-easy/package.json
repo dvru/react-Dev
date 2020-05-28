@@ -2,7 +2,7 @@
   "name": "plants-made-easy",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://dvru.github.io/plants-made-easy",
+  "homepage": "https://dvru.github.io/plants-made-easy",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",

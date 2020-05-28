@@ -4,7 +4,7 @@ import './card.styles.css';
 // individual cards
 export const Card = (props) => (
     <div className='card-container'>
-        <h1> {props.plant.name} </h1>
+        <h2> {props.plant.name} </h2>
         <img alt="plant" src={props.plant.img} />
         <p> {props.plant.description} </p>
     </div>

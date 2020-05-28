@@ -29,8 +29,8 @@ class App extends React.Component {
 }
 
 
-handleChange = (e) => {
-  this.setState({ searchField: e.target.value })
+handleChange = e => {
+  this.setState({ searchField: e.target.value });
 }
 
 // rendering each component
@@ -38,8 +38,10 @@ handleChange = (e) => {
     const { plants, searchField } = this.state;
     const filterdPlants = plants.filter( plant => 
       plant.name.toLowerCase().includes(searchField.toLowerCase()))
+      
     return (
       <div className="App">
+      <h1> Plants Made Easy </h1>
       <SearchBox
         placeholder='search plants'
         handleChange={this.handleChange}

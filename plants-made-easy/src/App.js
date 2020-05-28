@@ -32,6 +32,9 @@ class App extends React.Component {
 
 // rendering each component
   render(){ // using jsx syntax
+    const { plants, searchField } = this.state;
+    const filterdPlants = plants.filter( plant => 
+      plant.name.toLowerCase().includes(searchField.toLowerCase()))
     return (
       <div className="App">
       <input 
@@ -39,7 +42,7 @@ class App extends React.Component {
         placeholder='search plants' 
         onChange={e => this.setState({ searchField: e.target.value })}
       />
-      <Cardlist plants={this.state.plants}></Cardlist>
+      <Cardlist plants={filterdPlants}></Cardlist>
       </div>
     )
   }

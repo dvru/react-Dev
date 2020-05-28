@@ -1,8 +1,8 @@
 import React from 'react';
-// import logo from './logo.svg';
-import './App.css';
-import { Cardlist } from './components/card-list/card-list.component';
 
+import { Cardlist } from './components/card-list/card-list.component';
+import { SearchBox } from './components/search-box/search-box.component'
+import './App.css';
 
 class App extends React.Component { 
 
@@ -37,12 +37,11 @@ class App extends React.Component {
       plant.name.toLowerCase().includes(searchField.toLowerCase()))
     return (
       <div className="App">
-      <input 
-        type='search' 
-        placeholder='search plants' 
-        onChange={e => this.setState({ searchField: e.target.value })}
+      <SearchBox
+        placeholder='search plants'
+        handleChange={e => this.setState({ searchField: e.target.value })}
       />
-      <Cardlist plants={filterdPlants}></Cardlist>
+      <Cardlist plants={filterdPlants}/>
       </div>
     )
   }

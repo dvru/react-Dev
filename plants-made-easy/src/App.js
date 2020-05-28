@@ -14,7 +14,6 @@ class App extends React.Component {
       plants: [],
       searchField: ''
     }
-    this.handleChange = this.handleChange.bind(this);
   }
   
 
@@ -30,7 +29,7 @@ class App extends React.Component {
 }
 
 
-handleChange(e) {
+handleChange = (e) => {
   this.setState({ searchField: e.target.value })
 }
 

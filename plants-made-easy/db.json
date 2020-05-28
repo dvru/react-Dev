@@ -1,10 +1,9 @@
 {
-    "plants": [
+  "plants": [
       {
         "id": "1",
         "name": "Lavender",
-        "img": "https://www.whiteflowerfarm.com/mas_assets/cache/image/5/7/5/3/x480-22355.Jpg",
-        "description": "Lavender oil is believed to have antiseptic and anti-inflammatory properties, which can help to heal minor burns and bug bites. Research suggests that it may be useful for treating anxiety, insomnia, depression, and restlessness."
+        "img": "https://www.whiteflowerfarm.com/mas_assets/cache/image/5/7/5/3/x480-22355.Jpg"
       },
       {
         "id": "2",
@@ -18,7 +17,7 @@
       },
       {
         "id": "4",
-        "name": "Zanzibar Gem",
+       "name": "Zanzibar Gem",
         "img": "https://i.pinimg.com/originals/21/6e/ce/216ece78081c184ffe3f872d232bdd94.jpg"
       },
       {
@@ -41,6 +40,5 @@
         "name": "Swiss cheese plant",
         "img": "https://images.squarespace-cdn.com/content/v1/5a80d1cc18b27df02ea8d544/1539564858699-C9G6N6GJRWO85KYLDT5B/ke17ZwdGBToddI8pDm48kMXRibDYMhUiookWqwUxEZ97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0luUmcNM2NMBIHLdYyXL-Jww_XBra4mrrAHD6FMA3bNKOBm5vyMDUBjVQdcIrt03OQ/Cheese_white_withstand.jpg?format=1500w"
       }
-
     ]
-  }
+}

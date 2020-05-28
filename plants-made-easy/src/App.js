@@ -19,7 +19,7 @@ class App extends React.Component {
 
   //fetching all plants from json
   componentDidMount(){
-  fetch("http://localhost:3001/plants", {
+  fetch('http://localhost:3001/plants', {
   })
     .then(response => response.json())
     .then(plants => this.setState({ plants: plants}))
@@ -37,8 +37,7 @@ handleChange = e => {
   render(){ // using jsx syntax
     const { plants, searchField } = this.state;
     const filterdPlants = plants.filter( plant => 
-      plant.name.toLowerCase().includes(searchField.toLowerCase()))
-      
+      plant.name.toLowerCase().includes(searchField.toLowerCase()));
     return (
       <div className="App">
       <h1> Plants Made Easy </h1>
